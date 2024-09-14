@@ -1,6 +1,8 @@
-function Rodape() {
+import "./Rodape.css"
+
+function Rodape(props) {
     return(
-        <footer></footer>
+        <footer>{props.texto}</footer>
     );
 }
 

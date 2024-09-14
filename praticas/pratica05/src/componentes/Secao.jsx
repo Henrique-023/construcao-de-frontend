@@ -1,4 +1,6 @@
-function Secao(){
+import "./Secao.css";
+
+function Secao(props){
     return(
         <sectio>
             <h2>{props.texto}</h2>

@@ -1,7 +1,7 @@
-function Icones() {
+function Icone(props) {
     return(
         <img src={props.imagem} alt={props.texto}></img>
     )
 }
 
-export default Icones;
+export default Icone;

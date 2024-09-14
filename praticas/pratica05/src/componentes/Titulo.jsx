@@ -1,7 +1,7 @@
-function Titulos() {
+function Titulo(props) {
     return(
         <h1>{props.texto}</h1>
     );
 }
 
-export default Titulos;
+export default Titulo;
